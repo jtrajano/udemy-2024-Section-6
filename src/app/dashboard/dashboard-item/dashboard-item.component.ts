@@ -1,13 +1,13 @@
 import {Component, Input} from '@angular/core';
 
 @Component({
-  selector: 'app-dashoboard-item',
+  selector: 'app-dashboard-item',
   standalone: true,
   imports: [],
-  templateUrl: './dashoboard-item.component.html',
-  styleUrl: './dashoboard-item.component.css'
+  templateUrl: './dashboard-item.component.html',
+  styleUrl: './dashboard-item.component.css'
 })
-export class DashoboardItemComponent {
+export class DashboardItemComponent {
   @Input() img!: {src: string, alt: string};
   @Input() title!: string;
 }
